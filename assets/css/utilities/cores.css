@@ -1,0 +1,95 @@
+:root {
+  /* Cores: Escala P&B */
+  --c0: white;
+  --c01: #EBEBEB;
+  --c02: #D1D1D1;
+  --c03: #B8B8B8;
+  --c04: #9E9E9E;
+  --c05: #858585;
+  --c06: #6B6B6B;
+  --c07: #595959;
+  --c08: #474747;
+  --c09: #363636;
+  --c10: #242424;
+  --c11: #121212;
+  --c12: black;
+
+  /* Cores: Primárias */
+  --p1: #FFBB00;
+  --p2: #E5A117;
+  --p3: #A66F00;
+  --p4: #684500;
+  --p5: #402B00;
+
+  /* Botão Gradiente */
+  --botao: linear-gradient(var(--p1), var(--p2));
+  --botao-hover: linear-gradient(var(--p1), var(--p3));
+}
+
+.c01 {
+  color: var(--c01);
+}
+
+.c02 {
+  color: var(--c02);
+}
+
+.c03 {
+  color: var(--c03);
+}
+
+.c04 {
+  color: var(--c04);
+}
+
+.c05 {
+  color: var(--c05);
+}
+
+.c06 {
+  color: var(--c06);
+}
+
+.c07 {
+  color: var(--c07);
+}
+
+.c08 {
+  color: var(--c08);
+}
+
+.c09 {
+  color: var(--c09);
+}
+
+.c10 {
+  color: var(--c10);
+}
+
+.c11 {
+  color: var(--c11);
+}
+
+.c12 {
+  color: var(--c12);
+}
+
+.p1 {
+  color: var(--p1);
+}
+
+.p2 {
+  color: var(--p2);
+}
+
+.p3 {
+  color: var(--p3);
+}
+
+.p4 {
+  color: var(--p4);
+}
+
+.p5 {
+  color: var(--p5);
+}

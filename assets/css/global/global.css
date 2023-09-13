@@ -1,11 +1,12 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--c11);
   padding-bottom: 600px;
 }
 
