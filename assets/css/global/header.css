@@ -23,12 +23,8 @@
 
 .header-menu a {
   position: relative;
-  font-size: 18px;
-  color: var(--c0);
   display: inline-block;
-  padding-top: 16px 0px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  padding: 16px 0px;
 }
 
 .header-menu a::after {
