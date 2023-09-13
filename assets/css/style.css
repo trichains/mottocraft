@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
+/* Geral */
 @import "./global/global.css";
 @import "./utilities/tipografia.css";
 @import "./utilities/cores.css";
 
+/* Header */
 @import "./global/header.css";
 
 /* Utilidades */
@@ -11,6 +13,7 @@
 
 /* Home */
 @import "./home/intro.css";
+@import "./home/tecnologia.css";
 
 /* Bicicletas */
 @import "./bicicletas/bicicletas-lista.css";
