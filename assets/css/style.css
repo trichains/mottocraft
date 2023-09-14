@@ -8,6 +8,9 @@
 /* Header */
 @import "./global/header.css";
 
+/* Footer */
+@import "./global/footer.css";
+
 /* Utilidades */
 @import "./utilities/componentes.css";
 

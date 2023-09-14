@@ -25,7 +25,7 @@
   --botao-cor: linear-gradient(var(--p1), var(--p2));
   --botao-text-color: var(--p5);
   /* Hover */
-  --botao-hover-cor: linear-gradient(var(--p2), var(--p2));
+  --botao-hover-cor: linear-gradient(var(--p2), var(--p3));
   --botao-hover-text-color: var(--p5);
 
   /* Secundário */
