@@ -22,8 +22,37 @@
   --p5: #402B00;
 
   /* Botão Gradiente */
-  --botao: linear-gradient(var(--p1), var(--p2));
-  --botao-hover: linear-gradient(var(--p1), var(--p3));
+  --botao-cor: linear-gradient(var(--p1), var(--p2));
+  --botao-text-color: var(--p5);
+  /* Hover */
+  --botao-hover-cor: linear-gradient(var(--p2), var(--p2));
+  --botao-hover-text-color: var(--p5);
+
+  /* Secundário */
+  --botao-secundario-cor: linear-gradient(var(--c09), var(--c10));
+  --botao-secundario-text-color: var(--c02);
+  /* Hover */
+  --botao-secundario-hover: linear-gradient(var(--c10), var(--c11));
+}
+
+.botao-cor {
+  background: var(--botao-cor);
+  color: var(--botao-text-color);
+}
+
+.botao-cor:hover {
+  background: var(--botao-hover-cor);
+  color: var(--botao-hover-text-color);
+}
+
+.botao.secundario-cor {
+  background: var(--botao-secundario-cor);
+  color: var(--botao-secundario-text-color);
+}
+
+.botao.secundario-cor:hover {
+  background: var(--botao-secundario-hover);
+  color: var(--botao-secundario-text-color);
 }
 
 .c0 {
