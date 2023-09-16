@@ -1,5 +1,5 @@
 #contato {
-  background: linear-gradient(var(--c11)600px, var(--c01) 0px);
+  background: linear-gradient(var(--c11) 600px, var(--c01) 0px);
 }
 
 .contato {
@@ -7,7 +7,8 @@
   grid-template-columns: 5fr 7fr;
 }
 
-.contato-dados, .contato-form {
+.contato-dados,
+.contato-form {
   padding: 60px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -15,6 +16,10 @@
 .contato-dados {
   border-radius: 5px 0 0 5px;
   background-color: var(--c12);
+}
+
+.contato-dados h2 {
+  margin-bottom: 60px;
 }
 
 .contato-form {
@@ -67,6 +72,7 @@
 
 .contato-meios a:last-child {
   margin-top: 32px;
+  margin-bottom: 60px;
 }
 
 .contato-meios a:last-child::before {
@@ -88,7 +94,8 @@
   .contato {
     grid-template-columns: 1fr;
   }
-  .contato-dados, .contato-form {
+  .contato-dados,
+  .contato-form {
     padding: 20px;
   }
   .contato-dados {
@@ -98,7 +105,8 @@
   .contato-form {
     border-radius: 0 0 5px 5px;
   }
-  .contato-dados h2, .contato-meios a:last-child {
+  .contato-dados h2,
+  .contato-meios a:last-child {
     margin-bottom: 32px;
   }
   .contato-redes {
