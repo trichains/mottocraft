@@ -6,7 +6,7 @@
 
 .form label {
   display: block;
-  font: 600 1rem/1.5 "Poppins", sans-serif;
+  font: 400 1rem/1.5 "Poppins", sans-serif;
   margin-bottom: 4px;
 }
 
@@ -17,7 +17,8 @@
 .form input[type="text"],
 .form input[type="tel"],
 .form input[type="email"],
-.form textarea {
+.form textarea,
+.form select.estado {
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background: var(--c01);
   border: 1px solid var(--c02);
@@ -30,10 +31,64 @@
 .form input[type="text"]:focus,
 .form input[type="tel"]:focus,
 .form input[type="email"]:focus,
-.form textarea:focus {
+.form textarea:focus,
+.form select.estado:focus {
   outline: none;
   border-color: var(--p1);
   background: var(--c0);
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  position: relative;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--p1);
+  border-radius: 4px;
+  background-color: var(--c0);
+  margin-right: 12px;
+  box-sizing: border-box;
+}
+
+.checkbox:checked {
+  background-color: var(--c01);
+  border-color: var(--c04);
+  outline: none;
+}
+
+.checkbox::before {
+  content: '';
+  background: url(../../../assets/img/icons/mark.svg);
+  font-size: 24px;
+  width: 16px;
+  height: 12px;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.checkbox:checked::before {
+  opacity: 1;
+}
+
+.terms {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.checkbox:checked + .terms {
+  font-weight: bold;
 }
 
 @media (max-width: 600px) {
