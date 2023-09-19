@@ -15,16 +15,16 @@
 
 .contato-dados {
   border-radius: 5px 0 0 5px;
-  background-color: var(--c12);
-}
-
-.contato-dados h2 {
-  margin-bottom: 60px;
+  background: var(--c12) url("../../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
 }
 
 .contato-form {
   border-radius: 0 5px 5px 0;
-  background-color: var(--c0);
+  background: var(--c0) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
+}
+
+.contato-dados h2 {
+  margin-bottom: 60px;
 }
 
 .contato-endereco {
@@ -101,6 +101,7 @@
   .contato-dados {
     padding-left: 60px;
     border-radius: 5px 5px 0 0;
+    background: var(--c12) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
   }
   .contato-form {
     border-radius: 0 0 5px 5px;

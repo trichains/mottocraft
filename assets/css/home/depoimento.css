@@ -1,5 +1,5 @@
 .depoimento {
-  background-color: var(--p1);
+  background: var(--p1) url(../../img/dec/top-right-p.svg) no-repeat top 40px right 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
@@ -20,13 +20,14 @@
 .depoimento-conteudo p {
   position: relative;
   max-width: 32ch;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-style: italic;
   font-weight: 900;
   margin-bottom: 32px;
 }
 
-.depoimento p::after, .depoimento p::before {
+.depoimento p::after,
+.depoimento p::before {
   position: absolute;
   font-size: 5rem;
   color: var(--p2);
@@ -39,6 +40,12 @@
 }
 .depoimento p::after {
   content: "”";
+}
+
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
 }
 
 @media (max-width: 800px) {
