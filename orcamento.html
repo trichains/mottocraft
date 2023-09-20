@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.svg" type="image/svg+XML" />
+    <link rel="preload" href="assets/css/style.css" as="style" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -219,8 +220,16 @@
             </select>
           </div>
           <div class="form-check col-2">
-            <input type="checkbox" name="terms" id="terms" class="checkbox" required/>
-            <label for="terms" class="terms">Li e aceito os termos de condições.</label>
+            <input
+              type="checkbox"
+              name="terms"
+              id="terms"
+              class="checkbox"
+              required
+            />
+            <label for="terms" class="terms"
+              >Li e aceito os termos de condições.</label
+            >
           </div>
           <button class="botao col-2 botao-cor">Solicitar Orçamento</button>
         </div>
