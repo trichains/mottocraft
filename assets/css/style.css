@@ -4,6 +4,7 @@
 @import "./global/global.css";
 @import "./utilities/tipografia.css";
 @import "./utilities/cores.css";
+@import "./utilities/anime.css";
 
 /* Header */
 @import "./global/header.css";

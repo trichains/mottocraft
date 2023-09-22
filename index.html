@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.svg" type="image/svg+XML" />
-    <link rel="preload" href="assets/css/style.css" as="style" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="assets/css/style.min.css" as="style" />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,6 +17,10 @@
       name="description"
       content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft."
     />
+
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body>
     <header class="header-bg">
@@ -39,19 +43,24 @@
       </div>
     </header>
 
-    <main class="intro-bg c0">
+    <main class="intro-bg">
       <div class="intro container">
         <div class="intro-conteudo">
-          <h1 class="font-1-xxl">
+          <h1 class="font-1-xxl c0 fadeInDown" data-anime="200">
             Bicicletas feitas sob medida<span class="p1">.</span>
           </h1>
-          <p class="font-2-l">
+          <p class="font-2-l c05 fadeInDown" data-anime="400">
             Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
             para o cliente. Explore o mundo na sua velocidade com a Bikcraft.
           </p>
-          <a href="./bicicletas.html" class="botao botao-cor">Escolha a sua</a>
+          <a
+            href="./bicicletas.html"
+            class="botao botao-cor fadeInDown"
+            data-anime="600"
+            >Escolha a sua</a
+          >
         </div>
-        <picture>
+        <picture class="fadeInDown" data-anime="800">
           <source
             media="(max-width: 800px)"
             srcset="assets/img/bicicletas/nimbus.jpg"
@@ -317,21 +326,27 @@
             <li>Campo Grande - MS</li>
           </ul>
           <div class="footer-redes">
-            <a href="http://facebook.com/crilordz"
+            <a
+              href="https://facebook.com/crilordz"
+              target="_blank"
+              rel="external"
               ><img
                 src="assets/img/redes/facebook.svg"
                 width="32"
                 height="32"
                 alt="Facebook"
             /></a>
-            <a href="http://github.com/crilord"
+            <a href="https://github.com/crilord" target="_blank" rel="external"
               ><img
                 src="assets/img/redes/github.svg"
                 width="32"
                 height="32"
                 alt="GitHub"
             /></a>
-            <a href="http://linkedin.com/in/crilord"
+            <a
+              href="https://linkedin.com/in/crilord"
+              target="_blank"
+              rel="external"
               ><img
                 src="assets/img/redes/linkedin.svg"
                 width="32"
@@ -356,6 +371,7 @@
         </p>
       </div>
     </footer>
+    <script src="./assets/js/plugins/simple-anime.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>

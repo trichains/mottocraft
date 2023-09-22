@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.svg" type="image/svg+XML" />
-    <link rel="preload" href="assets/css/style.css" as="style" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preload" href="assets/css/style.min.css" as="style" />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,6 +18,9 @@
       name="description"
       content="Leia atentamente nossos termos e condições para entender os direitos e responsabilidades ao usar nossos serviços. Descubra informações importantes sobre privacidade, uso do site e mais."
     />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body id="termos">
     <header class="header-bg">
@@ -121,13 +124,19 @@
             <li>Campo Grande - MS</li>
           </ul>
           <div class="footer-redes">
-            <a href="http://facebook.com/crilordz"
+            <a
+              href="https://facebook.com/crilordz"
+              target="_blank"
+              rel="external"
               ><img src="assets/img/redes/facebook.svg" alt="Facebook"
             /></a>
-            <a href="http://github.com/crilord"
+            <a href="https://github.com/crilord" target="_blank" rel="external"
               ><img src="assets/img/redes/github.svg" alt="GitHub"
             /></a>
-            <a href="http://linkedin.com/in/crilord"
+            <a
+              href="https://linkedin.com/in/crilord"
+              target="_blank"
+              rel="external"
               ><img src="assets/img/redes/linkedin.svg" alt="LinkedIn"
             /></a>
           </div>
