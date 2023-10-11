@@ -22,13 +22,13 @@
 @import './home/parceiros.css';
 @import './home/depoimento.css';
 
-/* Bicicletas */
-@import './bicicletas/motos-lista.css';
-@import './bicicletas/bicicletas.css';
+/* Motos */
+@import './motos/motos-lista.css';
+@import './motos/motos.css';
 
-/* Bicicleta */
-@import './bicicleta/bicicleta.css';
-@import './bicicleta/seguro.css';
+/* Moto */
+@import './moto/moto.css';
+@import './moto/seguro.css';
 
 /* Seguros */
 @import './seguros/seguros.css';

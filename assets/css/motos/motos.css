@@ -1,9 +1,9 @@
-.bikes-bg {
+.motos-bg {
   background: linear-gradient(to right, var(--c0) 30%, var(--c11) 0%);
   border-radius: 5px;
 }
 
-.bikes {
+.motos {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
@@ -12,15 +12,15 @@
   background: url(../../img/dec/top-right.svg) no-repeat top 40px right 40px;
 }
 
-.bikes-img {
+.motos-img {
   display: grid;
 }
 
-.bikes-img img {
+.motos-img img {
   grid-area: 1/1;
 }
 
-.bikes-img span {
+.motos-img span {
   grid-area: 1/1;
   place-self: start end;
   margin-top: 20px;
@@ -30,22 +30,22 @@
   border-radius: 4px 0 0 4px;
 }
 
-.bikes-conteudo {
+.motos-conteudo {
   display: grid;
   grid-template-columns: 1fr auto;
   align-content: start;
 }
 
-.bikes h2,
-.bikes p {
+.motos h2,
+.motos p {
   grid-column: 1/-1;
 }
 
-.bikes h2 {
+.motos h2 {
   margin-bottom: 20px;
 }
 
-.bikes h2::before {
+.motos h2::before {
   content: "";
   display: block;
   width: 12px;
@@ -54,34 +54,34 @@
   margin-bottom: 8px;
 }
 
-.bikes p {
+.motos p {
   margin-bottom: 32px;
 }
 
-.bikes a {
+.motos a {
   place-self: end;
 }
 
-.bikes li {
+.motos li {
   display: flex;
   align-items: center;
 }
 
-.bikes ul {
+.motos ul {
   display: grid;
   gap: 16px;
 }
 
-.bikes-conteudo img {
+.motos-conteudo img {
   width: 24px;
   margin-right: 8px;
 }
 
 @media (max-width: 800px) {
-  .bikes-bg {
+  .motos-bg {
     background: var(--c11);
   }
-  .bikes {
+  .motos {
     grid-template-columns: 1fr;
     gap: 20px;
     padding-top: 40px;
@@ -90,15 +90,15 @@
 }
 
 @media (max-width: 600px) {
-  .bikes-conteudo {
+  .motos-conteudo {
     grid-template-columns: 1fr;
   }
-  .bikes ul {
+  .motos ul {
     grid-template-columns: 1fr 1fr;
     margin-bottom: 32px;
     font-size: 1rem;
   }
-  .bikes a {
+  .motos a {
     place-self: start;
   }
 }
