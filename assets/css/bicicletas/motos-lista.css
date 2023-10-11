@@ -1,13 +1,13 @@
-.bicicletas-lista {
+.motos-lista {
   padding-top: 60px;
   padding-bottom: 120px;
 }
 
-.bicicletas-lista h2 {
+.motos-lista h2 {
   margin-bottom: 40px;
 }
 
-.bicicletas-lista ul {
+.motos-lista ul {
   display: flex;
   gap: 40px;
   padding: 0 20px 20px 20px;
@@ -17,30 +17,30 @@
   overflow-x: auto;
 }
 
-#bicicleta .bicicletas-lista ul {
+#bicicleta .motos-lista ul {
   padding: 0px 0px 20px 0px;
 }
 
-.bicicletas-lista li {
+.motos-lista li {
   min-width: 280px;
 }
 
-.bicicletas-lista a {
+.motos-lista a {
   display: block;
 }
 
-.bicicletas-lista img {
+.motos-lista img {
   margin-bottom: 16px;
 }
 
-.bicicletas-lista h3 {
+.motos-lista h3 {
   margin-bottom: 8px;
   display: flex;
   align-items: center;
 }
 
-.bicicletas-lista h3::before {
-  content: "";
+.motos-lista h3::before {
+  content: '';
   display: inline-block;
   background-color: var(--p1);
   margin-right: 8px;
@@ -49,21 +49,21 @@
   transition: width 0.2s;
 }
 
-.bicicletas-lista a:hover h3::before {
+.motos-lista a:hover h3::before {
   width: 24px;
 }
 
-.bicicletas-lista li span {
+.motos-lista li span {
   padding-left: 20px;
 }
 
 @media (max-width: 800px) {
-  .bicicletas-lista {
+  .motos-lista {
     padding-top: 60px;
     padding-bottom: 60px;
   }
 
-  .bicicletas-lista ul {
+  .motos-lista ul {
     gap: 20px;
   }
 }
