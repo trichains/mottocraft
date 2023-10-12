@@ -45,10 +45,10 @@ function eventosPerguntas(pergunta) {
 
 perguntas.forEach(eventosPerguntas);
 
-// Galeria de bicicletas
+// Galeria de motocicletas
 
-const galeria = document.querySelectorAll(".bicicleta-imgs img");
-const galeriaContainer = document.querySelector(".bicicleta-imgs");
+const galeria = document.querySelectorAll(".moto-imgs img");
+const galeriaContainer = document.querySelector(".moto-imgs");
 
 function trocarImagem(event) {
   const img = event.currentTarget;
