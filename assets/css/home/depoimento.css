@@ -1,5 +1,6 @@
 .depoimento {
-  background: var(--p1) url(../../img/dec/top-right-p.svg) no-repeat top 40px right 40px;
+  background: var(--p1) url(/assets/img/dec/top-right-p.svg) no-repeat top 40px
+    right 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
@@ -20,7 +21,7 @@
 .depoimento-conteudo p {
   position: relative;
   max-width: 32ch;
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
   font-style: italic;
   font-weight: 900;
   margin-bottom: 32px;
@@ -34,12 +35,12 @@
 }
 
 .depoimento p::before {
-  content: "“";
+  content: '“';
   left: -50px;
   top: -20px;
 }
 .depoimento p::after {
-  content: "”";
+  content: '”';
 }
 
 @media (min-width: 1200px) {

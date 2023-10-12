@@ -11,7 +11,7 @@
   align-items: center;
 }
 
-#seguros .seguros{
+#seguros .seguros {
   padding-top: 0px;
 }
 
@@ -55,12 +55,12 @@
 
 .seguros-item li::before {
   position: absolute;
-  content: "";
+  content: '';
   display: block;
   width: 13px;
   height: 9px;
   left: -21px;
-  background-image: url(../../img/icons/lista.svg);
+  background-image: url(/assets/img/icons/lista.svg);
 }
 
 .seguros-item a {

@@ -15,12 +15,14 @@
 
 .contato-dados {
   border-radius: 5px 0 0 5px;
-  background: var(--c12) url("../../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
+  background: var(--c12) url('/assets/img/dec/bottom-left.svg') no-repeat bottom
+    20px left 20px;
 }
 
 .contato-form {
   border-radius: 0 5px 5px 0;
-  background: var(--c0) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
+  background: var(--c0) url('/assets/img/dec/bottom-right.svg') no-repeat bottom
+    20px right 20px;
 }
 
 .contato-dados h2 {
@@ -33,12 +35,12 @@
 }
 
 .contato-endereco::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 20px;
   height: 20px;
   left: -28px;
-  background: url("../../img/icons/local.svg") no-repeat 0px 2px;
+  background: url('/assets/img/icons/local.svg') no-repeat 0px 2px;
 }
 
 .contato-endereco p {
@@ -50,12 +52,12 @@
 }
 
 .contato-meios::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 20px;
   height: 20px;
   left: -28px;
-  background: url(../../img/icons/email.svg) no-repeat 0px 2px;
+  background: url(/assets/img/icons/email.svg) no-repeat 0px 2px;
 }
 
 .contato-meios a {
@@ -76,13 +78,13 @@
 }
 
 .contato-meios a:last-child::before {
-  content: "";
+  content: '';
   display: block;
   width: 20px;
   height: 20px;
   position: absolute;
   left: -28px;
-  background: url(../../img/icons/telefone.svg) no-repeat 0px 2px;
+  background: url(/assets/img/icons/telefone.svg) no-repeat 0px 2px;
 }
 
 .contato-redes {
@@ -101,7 +103,8 @@
   .contato-dados {
     padding-left: 60px;
     border-radius: 5px 5px 0 0;
-    background: var(--c12) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
+    background: var(--c12) url('/assets/img/dec/bottom-right.svg') no-repeat
+      bottom 20px right 20px;
   }
   .contato-form {
     border-radius: 0 0 5px 5px;

@@ -65,7 +65,7 @@
 
 .checkbox::before {
   content: '';
-  background: url(../../../assets/img/icons/mark.svg);
+  background: url(/assets/img/icons/mark.svg);
   font-size: 24px;
   width: 16px;
   height: 12px;

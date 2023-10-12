@@ -9,7 +9,7 @@
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
-  background: url(../../img/dec/top-right.svg) no-repeat top 40px right 40px;
+  background: url(/assets/img/dec/top-right.svg) no-repeat top 40px right 40px;
 }
 
 .motos-img {
@@ -46,7 +46,7 @@
 }
 
 .motos h2::before {
-  content: "";
+  content: '';
   display: block;
   width: 12px;
   height: 8px;
