@@ -92,6 +92,20 @@
   gap: 32px;
 }
 
+[data-semana]::after {
+  content: '';
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #DD2222;
+  margin-left: 4px;
+}
+
+[data-semana].aberto::after {
+  background: #22DD77;
+}
+
 @media (max-width: 800px) {
   .contato {
     grid-template-columns: 1fr;
